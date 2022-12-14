@@ -5,7 +5,7 @@ int main(int argc, char** argv) {
 
     //Assigning Variables
     const int ROW = 2;
-    const int COLUMN = 2;
+    const int COLUMN = 3;
     const int DEPTH = 2;
     int AssignedArray[ROW][COLUMN][DEPTH];
 
