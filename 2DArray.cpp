@@ -5,12 +5,12 @@ int main(int argc, char** argv) {
 
     //Assigning Variables
     const int ROW = 4;
-    const int COLUMN = 5;
+    const int COLUMN = 4;
     int AssignedArray[ROW][COLUMN];
 
     //Display Title
     cout << "=================================================="
-        << "\n2 Dimensional Array: 4 Rows and 5 Columns\n" 
+        << "\n2 Dimensional Array: 4 Rows and 4 Columns\n" 
         << "==================================================\n";
 
 
