@@ -27,6 +27,6 @@ class PayslipGenerator {
         System.out.println("Hours Worked: " + hoursWorked);
         System.out.println("Gross Pay: PHP " + df.format(grossPay));
         System.out.println("Total Tardiness: " + tardiness);
-        System.out.println("Gross Pay: PHP " + df.format(netPay));
+        System.out.println("Net Pay: PHP " + df.format(netPay));
     }
 }
