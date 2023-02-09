@@ -17,14 +17,15 @@ class PayslipGenerator {
         int tardiness = sc.nextInt();
 
         int grossPay = hoursWorked * hourlyRate;
-        int netPay = grossPay - (hourlyRate * tardiness);
+        int TardinessAmount = tardiness * hourlyRate;
+        int netPay = grossPay - TardinessAmount;
 
         System.out.println("\nPaySlip");
         System.out.println("Employee Name: " + name);
         System.out.println("Rate/hr: " + hourlyRate);
         System.out.println("Hours Worked: " + hoursWorked);
         System.out.println("Gross Pay: PHP " + grossPay);
-        System.out.println("Total Tardiness: " + tardiness * hourlyRate);
+        System.out.println("Total Tardiness: " + TardinessAmount);
         System.out.println("Net Pay: PHP " + netPay);
     }
 }
